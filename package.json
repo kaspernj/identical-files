@@ -1,0 +1,23 @@
+{
+  "name": "identical-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.cjs",
+  "scripts": {
+    "start": "node --trace-warnings ./index.cjs",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kaspernj/identical-files.git"
+  },
+  "author": "k@spernj.org",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaspernj/identical-files/issues"
+  },
+  "homepage": "https://github.com/kaspernj/identical-files#readme",
+  "dependencies": {
+    "@kaspernj/object-digger": "^1.0.2"
+  }
+}
